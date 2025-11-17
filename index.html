@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Priyanka Anil Yadav — UX Designer</title>
+  <meta name="description" content="Priyanka Anil Yadav — UX Designer. Portfolio, experience, skills and case studies." />
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#94a3b8; --accent:#7c3aed; --glass: rgba(255,255,255,0.03);
+      --max-width:1100px; --radius:14px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color-scheme: dark;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#071027 0%, #061428 60%);color:#e6eef8}
+    .container{max-width:var(--max-width);margin:36px auto;padding:28px}
+
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:110px;height:110px;border-radius:18px;background:linear-gradient(135deg,var(--accent),#4f46e5);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:32px;color:white}
+    h1{margin:0;font-size:28px}
+    .sub{color:var(--muted);margin-top:6px}
+
+    .grid{display:grid;grid-template-columns:360px 1fr;gap:28px;margin-top:26px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+
+    /* left column */
+    .profile .section-title{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+    .contact p{margin:6px 0;color:var(--muted);font-size:14px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill-pill{background:var(--glass);padding:6px 10px;border-radius:999px;font-size:13px;color:#dbeafe}
+
+    /* right column */
+    .about{line-height:1.5;color:#dfefff}
+    .work-list{display:flex;flex-direction:column;gap:12px;margin-top:12px}
+    .work-item{padding:12px;border-radius:10px;background:rgba(255,255,255,0.015)}
+    .work-item h4{margin:0;font-size:15px}
+    .muted{color:var(--muted);font-size:13px}
+
+    /* case studies */
+    .case-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px}
+    .case{background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px}
+    .case .thumb{height:140px;border-radius:8px;background:linear-gradient(135deg,#0ea5a4,#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700}
+    .case h3{margin:0;font-size:16px}
+    .case p{margin:0;color:var(--muted);font-size:14px}
+    .tags{display:flex;gap:8px;flex-wrap:wrap}
+    .tag{font-size:12px;padding:6px 8px;border-radius:8px;background:rgba(255,255,255,0.02)}
+    .case-footer{display:flex;justify-content:space-between;align-items:center}
+    .btn{background:var(--accent);color:white;padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
+
+    /* responsive */
+    @media (max-width:880px){.grid{grid-template-columns:1fr}.avatar{width:88px;height:88px}}
+
+    /* small print / print-friendly */
+    @media print{body{background:white;color:black} .card{background:white;color:black;box-shadow:none} .btn{display:none}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">PA</div>
+      <div>
+        <h1>Priyanka Anil Yadav</h1>
+        <div class="sub">Senior UX / Product Designer — Pune, Maharashtra | ar.priyankaanil08@gmail.com | 8237380907</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- left column -->
+      <aside class="card profile">
+        <div class="section-title">About</div>
+        <p class="about">Highly creative User Experience Designer with 3+ years of experience designing, developing and optimising user-centered digital products across web & mobile. Strong in design thinking, research, information architecture and design systems.</p>
+
+        <div style="margin-top:14px">
+          <div class="section-title">Skills</div>
+          <div class="skills">
+            <div class="skill-pill">Design Thinking</div>
+            <div class="skill-pill">User Research</div>
+            <div class="skill-pill">Wireframing</div>
+            <div class="skill-pill">Figma</div>
+            <div class="skill-pill">Design Systems</div>
+            <div class="skill-pill">HTML / CSS</div>
+            <div class="skill-pill">Prototyping</div>
+          </div>
+        </div>
+
+        <div style="margin-top:14px">
+          <div class="section-title">Tools</div>
+          <div class="contact">
+            <p>Figma · Adobe XD · Miro · Sketch · InVision · Jira</p>
+            <p>Photoshop · Illustrator · InDesign · 3D/VR basics</p>
+          </div>
+        </div>
+
+        <div style="margin-top:14px">
+          <div class="section-title">Education</div>
+          <div class="contact">
+            <p>Bachelor of Architecture — 2017–2022</p>
+            <p>UI/UX Design School — 06/2020–12/2020 (Certification)</p>
+          </div>
+        </div>
+
+      </aside>
+
+      <!-- right column -->
+      <main>
+        <div class="card">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <div>
+              <div class="section-title">Experience</div>
+            </div>
+            <div class="muted">3+ years • Open to new opportunities</div>
+          </div>
+
+          <div class="work-list" style="margin-top:14px">
+            <div class="work-item">
+              <h4>No Broker — Principal Designer</h4>
+              <div class="muted">Baner, Pune • 02/2025 – Current</div>
+              <p class="muted">Leading a cross-functional team of 6. End-to-end product design & delivery. Liaising with PMs & engineering to prioritise and ship features.</p>
+            </div>
+
+            <div class="work-item">
+              <h4>Sofrego — Senior UI/UX Designer</h4>
+              <div class="muted">Aundh, Pune • 04/2023 – 01/2025</div>
+              <p class="muted">Built and maintained a scalable design system, shipped B2B SaaS dashboard features, mentored junior designers.</p>
+            </div>
+
+            <div class="work-item">
+              <h4>UI/UX Designer</h4>
+              <div class="muted">01/2022 – 04/2023</div>
+              <p class="muted">Conducted research, produced wireframes & prototypes, ensured accessibility and usability for early product releases.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Studies -->
+        <div class="card" style="margin-top:18px">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <div class="section-title">Selected Case Studies</div>
+            <div class="muted">Deep dives that show process & impact</div>
+          </div>
+
+          <div class="case-grid">
+            <!-- Case 1 -->
+            <article class="case" id="case-1">
+              <div class="thumb">PropertyFlow</div>
+              <h3>Property listing onboarding (NoBroker)</h3>
+              <p>Redesigned the onboarding and listing flow to reduce drop-off and make listing creation intuitive for first-time users.</p>
+              <div class="tags">
+                <span class="tag">User Research</span>
+                <span class="tag">UX Flow</span>
+                <span class="tag">Prototyping</span>
+              </div>
+              <div class="case-footer">
+                <div class="muted">Feb 2025 • Outcome: ↓ drop-off 18%</div>
+                <button class="btn" onclick="openCase('case-1')">Read</button>
+              </div>
+            </article>
+
+            <!-- Case 2 -->
+            <article class="case" id="case-2">
+              <div class="thumb">DataDash</div>
+              <h3>Dashboard redesign for B2B SaaS</h3>
+              <p>Focused on data visualisation and complex workflow simplification to improve productivity for power users.</p>
+              <div class="tags"><span class="tag">Design System</span><span class="tag">Data Viz</span></div>
+              <div class="case-footer">
+                <div class="muted">Aug 2024 • Outcome: +25% task speed</div>
+                <button class="btn" onclick="openCase('case-2')">Read</button>
+              </div>
+            </article>
+
+            <!-- Case 3 -->
+            <article class="case" id="case-3">
+              <div class="thumb">Mobile Checkout</div>
+              <h3>Mobile purchase funnel optimisation</h3>
+              <p>Iterative usability tests and A/B experiments that reduced friction during checkout and improved conversion.</p>
+              <div class="tags"><span class="tag">Usability Testing</span><span class="tag">A/B Testing</span></div>
+              <div class="case-footer">
+                <div class="muted">Dec 2023 • Outcome: +12% conversion</div>
+                <button class="btn" onclick="openCase('case-3')">Read</button>
+              </div>
+            </article>
+
+          </div>
+
+          <!-- modal / detail area -->
+          <div id="case-modal" style="display:none;margin-top:14px;padding:12px;border-radius:10px;background:rgba(255,255,255,0.02)"></div>
+
+        </div>
+
+        <!-- footer / CTA -->
+        <div style="margin-top:16px;display:flex;gap:12px;align-items:center">
+          <button class="btn" onclick="downloadHTML()">Download HTML</button>
+          <div class="muted">Want this file as a ZIP or with your real project images? I can export it.</div>
+        </div>
+
+      </main>
+    </div>
+  </div>
+
+  <script>
+    function openCase(id){
+      const modal = document.getElementById('case-modal');
+      const el = document.getElementById(id);
+      const title = el.querySelector('h3').textContent;
+      const body = el.querySelector('p').textContent;
+      const tags = Array.from(el.querySelectorAll('.tag')).map(t=>t.textContent).join(', ');
+      modal.innerHTML = `<strong>${title}</strong><p style="color:var(--muted)">${body}</p><p class="muted">Tags: ${tags}</p>`;
+      modal.style.display = 'block';
+      modal.scrollIntoView({behavior:'smooth'});
+    }
+
+    function downloadHTML(){
+      const blob = new Blob([document.documentElement.outerHTML], {type:'text/html'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = 'prianka-cv-website.html';
+      document.body.appendChild(a); a.click(); a.remove();
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>
