@@ -13,9 +13,13 @@
     <section class="text-center space-y-4">
       <h1 class="text-4xl font-bold">JobSwipe – Case Study</h1>
       <p class="text-gray-400 text-lg">Swipe Your Way to the Right Job</p>
-      <div class="w-full h-64 bg-gray-800 rounded-xl flex items-center justify-center text-gray-500">
-        Add Mockup Image Here
-      </div>
+
+      <!-- Image wrapper: overflow-hidden & fixed height -->
+          <div class="w-full bg-gray-800 rounded-xl overflow-hidden">
+            <img src="./images/cover.png"
+                alt="cover"
+                class="block w-full h-auto object-contain" />
+          </div>
     </section>
 
     <!-- Overview -->
@@ -71,7 +75,11 @@
         <h3 class="text-lg font-semibold">Company Flow</h3>
         <p class="text-gray-400">Login → Candidate Cards → Swipe → Match → Connect</p>
       </div>
-      <div class="w-full h-48 bg-gray-800 rounded-xl flex items-center justify-center text-gray-500">Add Flowchart Image</div>
+        <div class="w-full bg-gray-800 rounded-xl overflow-hidden">
+            <img src="./images/flow2.png"
+                alt="flow"
+                class="block w-full h-auto object-contain" />
+          </div>
     </section>
 
     <!-- Features -->
@@ -84,38 +92,35 @@
         <li><strong>Instant Match & Chat</strong> for mutual right swipes</li>
         <li><strong>Dark Mode UI</strong> fully designed with Tailwind</li>
       </ul>
-      <div class="w-full h-64 bg-gray-800 rounded-xl flex items-center justify-center text-gray-500">Add Feature Screenshots</div>
+        <div class="w-full bg-gray-800 rounded-xl overflow-hidden">
+            <img src="./images/main.png"
+                alt="screen"
+                class="block w-full h-auto object-contain" />
+          </div>
     </section>
 
     <!-- Design System -->
     <section class="space-y-4">
       <h2 class="text-2xl font-semibold">Design System</h2>
       <div class="space-y-2">
-        <h3 class="text-lg font-semibold">Color Palette</h3>
-        <div class="flex space-x-4">
-          <div class="w-20 h-20 bg-gray-900 rounded-lg"></div>
-          <div class="w-20 h-20 bg-gray-800 rounded-lg"></div>
-          <div class="w-20 h-20 bg-blue-500 rounded-lg"></div>
-        </div>
+        <div class="w-full bg-gray-800 rounded-xl overflow-hidden">
+            <img src="./images/system.png"
+                alt="system"
+                class="block w-full h-auto object-contain" />
+          </div>
       </div>
       <div class="space-y-2">
         <h3 class="text-lg font-semibold">Typography</h3>
-        <p class="text-gray-400">Inter / Poppins</p>
+        <p class="text-gray-400">DM Sans / Others</p>
       </div>
-      <div class="w-full h-64 bg-gray-800 rounded-xl flex items-center justify-center text-gray-500">Add Style Guide Image</div>
+         <div class="w-full bg-gray-800 rounded-xl overflow-hidden">
+            <img src="./images/typography.png"
+                alt="system"
+                class="block w-full h-auto object-contain" />
+          </div>
     </section>
 
-    <!-- Screens -->
-    <section class="space-y-4 pb-10">
-      <h2 class="text-2xl font-semibold">High-Fidelity Screens</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div class="w-full h-64 bg-gray-800 rounded-xl flex items-center justify-center text-gray-500">Onboarding</div>
-        <div class="w-full h-64 bg-gray-800 rounded-xl flex items-center justify-center text-gray-500">Job Cards</div>
-        <div class="w-full h-64 bg-gray-800 rounded-xl flex items-center justify-center text-gray-500">Company Swipe</div>
-        <div class="w-full h-64 bg-gray-800 rounded-xl flex items-center justify-center text-gray-500">Chat</div>
-      </div>
-    </section>
-
+   
   </div>
 </body>
 </html>
